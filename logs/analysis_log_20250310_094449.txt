@@ -1,0 +1,127 @@
+COVID-19 Survival Analysis
+=========================
+Started at: 2025-03-10 09:44:49 
+
+Checking and installing required packages...
+[[1]]
+[[1]]$name
+[1] "scripts/01-data-preprocessing.r"
+
+[[1]]$description
+[1] "Data loading and preprocessing"
+
+
+[[2]]
+[[2]]$name
+[1] "scripts/02-descriptive-analysis.r"
+
+[[2]]$description
+[1] "Descriptive statistics and basic visualizations"
+
+
+[[3]]
+[[3]]$name
+[1] "scripts/03-survival-analysis.r"
+
+[[3]]$description
+[1] "Kaplan-Meier survival analysis and Cox models"
+
+
+[[4]]
+[[4]]$name
+[1] "scripts/04-parametric-models.r"
+
+[[4]]$description
+[1] "Parametric survival models"
+
+
+[[5]]
+[[5]]$name
+[1] "scripts/05-mixed-effects-models.r"
+
+[[5]]$description
+[1] "Mixed-effects models for hospital clustering"
+
+
+[[6]]
+[[6]]$name
+[1] "scripts/06-visualization.r"
+
+[[6]]$description
+[1] "Advanced visualizations for publication"
+
+
+
+============================================
+Running: scripts/01-data-preprocessing.r 
+Data loading and preprocessing 
+============================================
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  22.00   53.00   65.00   65.06   81.00  100.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  1.466   5.360   7.291   8.052   9.872  41.738     201 
+
+============================================
+Running: scripts/02-descriptive-analysis.r 
+Descriptive statistics and basic visualizations 
+============================================
+
+WARNING in scripts/02-descriptive-analysis.r :
+Removed 201 rows containing non-finite outside the scale range
+(`stat_ydensity()`). 
+
+Completed: scripts/02-descriptive-analysis.r 
+Time taken: 0.6903379 secs 
+
+============================================
+Running: scripts/03-survival-analysis.r 
+Kaplan-Meier survival analysis and Cox models 
+============================================
+
+WARNING in scripts/03-survival-analysis.r :
+All aesthetics have length 1, but the data has 2 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row. 
+
+Completed: scripts/03-survival-analysis.r 
+Time taken: 1.185244 secs 
+
+============================================
+Running: scripts/04-parametric-models.r 
+Parametric survival models 
+============================================
+
+============================================
+Running: scripts/05-mixed-effects-models.r 
+Mixed-effects models for hospital clustering 
+============================================
+[1] TRUE
+
+WARNING in scripts/05-mixed-effects-models.r :
+Can't compute random effect variances. Some variance components equal
+  zero. Your model may suffer from singularity (see `?lme4::isSingular` and
+  `?performance::check_singularity`).
+  Solution: Respecify random structure! You may also decrease the
+  `tolerance` level to enforce the calculation of random effect variances. 
+
+Completed: scripts/05-mixed-effects-models.r 
+Time taken: 1.89386 secs 
+
+============================================
+Running: scripts/06-visualization.r 
+Advanced visualizations for publication 
+============================================
+
+WARNING in scripts/06-visualization.r :
+Removed 195 rows containing non-finite outside the scale range (`stat_bin()`). 
+
+Completed: scripts/06-visualization.r 
+Time taken: 0.365479 secs 
+
+=========================
+Analysis complete
+Started at: 2025-03-10 09:44:49 
+Ended at: 2025-03-10 09:45:36 
+Total time: 47.36415 secs 
+All scripts completed successfully.
+=========================

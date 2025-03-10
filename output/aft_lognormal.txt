@@ -1,0 +1,38 @@
+
+Call:
+survreg(formula = Surv(LoS, mort_hospital) ~ age + factor(gender) + 
+    wave + Ct, data = Covid_data, dist = "lognormal")
+                    Value Std. Error      z       p
+(Intercept)      3.374076   0.067403  50.06 < 2e-16
+age             -0.006298   0.000666  -9.46 < 2e-16
+factor(gender)1  0.064529   0.019082   3.38 0.00072
+wave2           -0.173990   0.020712  -8.40 < 2e-16
+wave3            0.190866   0.028749   6.64 3.2e-11
+Ct              -0.005154   0.001386  -3.72 0.00020
+Log(scale)      -0.569277   0.017884 -31.83 < 2e-16
+
+Scale= 0.566 
+
+Log Normal distribution
+Loglik(model)= -6573.4   Loglik(intercept only)= -6740.9
+	Chisq= 334.9 on 5 degrees of freedom, p= 3.1e-70 
+Number of Newton-Raphson Iterations: 5 
+n=9588 (396 observations deleted due to missingness)
+
+
+
+Exponentiated Coefficients (for interpretation):
+    (Intercept)             age factor(gender)1           wave2           wave3 
+     29.1972935       0.9937221       1.0666569       0.8403056       1.2102978 
+             Ct 
+      0.9948589 
+
+
+Confidence Intervals (exponentiated):
+                     2.5 %     97.5 %
+(Intercept)     25.5840355 33.3208555
+age              0.9924259  0.9950201
+factor(gender)1  1.0274998  1.1073063
+wave2            0.8068760  0.8751201
+wave3            1.1439879  1.2804512
+Ct               0.9921592  0.9975660

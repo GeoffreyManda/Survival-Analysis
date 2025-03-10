@@ -1,0 +1,12 @@
+Log-rank test for gender differences 
+
+Call:
+survdiff(formula = formula, data = data)
+
+n=9783, 201 observations deleted due to missingness.
+
+            N Observed Expected (O-E)^2/E (O-E)^2/V
+gender=0 4647      636      594       3.0      4.79
+gender=1 5136     1009     1051       1.7      4.79
+
+ Chisq= 4.8  on 1 degrees of freedom, p= 0.03 

@@ -1,0 +1,38 @@
+
+Call:
+survreg(formula = Surv(LoS, mort_hospital) ~ age + factor(gender) + 
+    wave + Ct, data = Covid_data, dist = "weibull")
+                    Value Std. Error      z       p
+(Intercept)      3.630677   0.073351  49.50 < 2e-16
+age             -0.007976   0.000744 -10.73 < 2e-16
+factor(gender)1  0.066381   0.019149   3.47 0.00053
+wave2           -0.170242   0.020449  -8.33 < 2e-16
+wave3            0.225061   0.028490   7.90 2.8e-15
+Ct              -0.005038   0.001377  -3.66 0.00025
+Log(scale)      -0.990657   0.017806 -55.64 < 2e-16
+
+Scale= 0.371 
+
+Weibull distribution
+Loglik(model)= -6646.3   Loglik(intercept only)= -6850.5
+	Chisq= 408.29 on 5 degrees of freedom, p= 4.9e-86 
+Number of Newton-Raphson Iterations: 9 
+n=9588 (396 observations deleted due to missingness)
+
+
+
+Exponentiated Coefficients (for interpretation):
+    (Intercept)             age factor(gender)1           wave2           wave3 
+     37.7383541       0.9920554       1.0686341       0.8434607       1.2523985 
+             Ct 
+      0.9949744 
+
+
+Confidence Intervals (exponentiated):
+                     2.5 %     97.5 %
+(Intercept)     32.6848342 43.5732169
+age              0.9906108  0.9935022
+factor(gender)1  1.0292695  1.1095041
+wave2            0.8103246  0.8779517
+wave3            1.1843813  1.3243220
+Ct               0.9922924  0.9976637

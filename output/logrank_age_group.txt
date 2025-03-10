@@ -1,0 +1,13 @@
+Log-rank test for age group differences 
+
+Call:
+survdiff(formula = formula, data = data)
+
+n=9783, 201 observations deleted due to missingness.
+
+                             N Observed Expected (O-E)^2/E (O-E)^2/V
+age_gp=Young Adults       1012       23       59      22.0      23.1
+age_gp=Middle-aged Adults 2935      170      324      72.9      92.9
+age_gp=Elderly            5836     1452     1262      28.5     126.9
+
+ Chisq= 128  on 2 degrees of freedom, p= <2e-16 

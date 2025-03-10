@@ -1,0 +1,2 @@
+Intraclass Correlation Coefficient (ICC): NA 
+This represents the proportion of variance explained by the hospital clustering.

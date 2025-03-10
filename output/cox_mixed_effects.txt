@@ -1,0 +1,20 @@
+Mixed effects coxme model
+ Formula: Surv(LoS, mort_hospital) ~ gender + age + wave + Ct + (1 | hosp_id) 
+    Data: Covid_data 
+
+  events, n = 1605, 9588 (396 observations deleted due to missingness)
+
+Random effects:
+    group  variable        sd  variance
+1 hosp_id Intercept 0.3734196 0.1394422
+                  Chisq    df p   AIC   BIC
+Integrated loglik 523.5  6.00 0 511.5 479.2
+ Penalized loglik 566.6 15.43 0 535.7 452.7
+
+Fixed effects:
+             coef exp(coef)  se(coef)     z        p
+gender1 -0.176461  0.838231  0.052110 -3.39 0.000708
+age      0.020708  1.020924  0.001912 10.83  < 2e-16
+wave2    0.440372  1.553285  0.055551  7.93 2.24e-15
+wave3   -0.573999  0.563268  0.078158 -7.34 2.07e-13
+Ct       0.013770  1.013865  0.003755  3.67 0.000245

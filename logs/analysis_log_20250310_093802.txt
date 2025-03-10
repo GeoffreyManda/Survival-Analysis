@@ -1,0 +1,79 @@
+COVID-19 Survival Analysis
+=========================
+Started at: 2025-03-10 09:38:02 
+
+Checking and installing required packages...
+
+============================================
+Running: scripts/01_data_preprocessing.r 
+Data loading and preprocessing 
+============================================
+
+WARNING in scripts/01_data_preprocessing.r :
+cannot open file 'scripts/01_data_preprocessing.r': No such file or directory 
+
+Completed: scripts/01_data_preprocessing.r 
+Time taken: 0.0003190041 secs 
+
+============================================
+Running: scripts/02_descriptive_analysis.r 
+Descriptive statistics and basic visualizations 
+============================================
+
+WARNING in scripts/02_descriptive_analysis.r :
+cannot open file 'scripts/02_descriptive_analysis.r': No such file or directory 
+
+Completed: scripts/02_descriptive_analysis.r 
+Time taken: 0.0002498627 secs 
+
+============================================
+Running: scripts/03_survival_analysis.r 
+Kaplan-Meier survival analysis and Cox models 
+============================================
+
+WARNING in scripts/03_survival_analysis.r :
+cannot open file 'scripts/03_survival_analysis.r': No such file or directory 
+
+Completed: scripts/03_survival_analysis.r 
+Time taken: 0.0002498627 secs 
+
+============================================
+Running: scripts/04_parametric_models.r 
+Parametric survival models 
+============================================
+
+WARNING in scripts/04_parametric_models.r :
+cannot open file 'scripts/04_parametric_models.r': No such file or directory 
+
+Completed: scripts/04_parametric_models.r 
+Time taken: 0.0001909733 secs 
+
+============================================
+Running: scripts/05_mixed_effects_models.r 
+Mixed-effects models for hospital clustering 
+============================================
+
+WARNING in scripts/05_mixed_effects_models.r :
+cannot open file 'scripts/05_mixed_effects_models.r': No such file or directory 
+
+Completed: scripts/05_mixed_effects_models.r 
+Time taken: 0.0001759529 secs 
+
+============================================
+Running: scripts/06_visualization.r 
+Advanced visualizations for publication 
+============================================
+
+WARNING in scripts/06_visualization.r :
+cannot open file 'scripts/06_visualization.r': No such file or directory 
+
+Completed: scripts/06_visualization.r 
+Time taken: 0.000207901 secs 
+
+=========================
+Analysis complete
+Started at: 2025-03-10 09:38:02 
+Ended at: 2025-03-10 09:38:02 
+Total time: 0.05447507 secs 
+All scripts completed successfully.
+=========================

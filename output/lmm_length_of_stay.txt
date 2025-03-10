@@ -1,0 +1,32 @@
+Linear mixed model fit by REML ['lmerMod']
+Formula: log_LoS ~ age + gender + Ct + wave + (1 | hosp_id)
+   Data: Covid_data
+
+REML criterion at convergence: 7126.2
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.5821 -0.6845 -0.0040  0.6845  4.0788 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ hosp_id  (Intercept) 0.02114  0.1454  
+ Residual             0.12172  0.3489  
+Number of obs: 9588, groups:  hosp_id, 12
+
+Fixed effects:
+              Estimate Std. Error t value
+(Intercept)  1.3825185  0.0464829  29.742
+age          0.0104053  0.0001978  52.614
+gender1      0.1754164  0.0071409  24.565
+Ct          -0.0045737  0.0005311  -8.611
+wave2       -0.1548161  0.0078415 -19.743
+wave3        0.1833257  0.0108710  16.864
+
+Correlation of Fixed Effects:
+        (Intr) age    gendr1 Ct     wave2 
+age     -0.274                            
+gender1 -0.068 -0.024                     
+Ct      -0.294  0.001 -0.020              
+wave2   -0.098 -0.005  0.003  0.005       
+wave3   -0.069 -0.010 -0.004  0.008  0.416

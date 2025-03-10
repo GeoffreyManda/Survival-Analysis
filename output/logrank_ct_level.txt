@@ -1,0 +1,13 @@
+Log-rank test for CT level differences 
+
+Call:
+survdiff(formula = formula, data = data)
+
+n=9783, 201 observations deleted due to missingness.
+
+                             N Observed Expected (O-E)^2/E (O-E)^2/V
+ct_gp=Strongly positive   4135      686      738      3.63     6.586
+ct_gp=Moderately Positive 3039      501      509      0.13     0.189
+ct_gp=Weakly Positive     2609      458      398      9.00    11.892
+
+ Chisq= 12.8  on 2 degrees of freedom, p= 0.002 

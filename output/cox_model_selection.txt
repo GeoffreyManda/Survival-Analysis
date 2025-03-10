@@ -1,0 +1,12 @@
+Single term deletions
+
+Model:
+Surv(LoS, mort_hospital == 1) ~ sex + age_gp + ct_gp + wave
+       Df   AIC     LRT  Pr(>Chi)    
+<none>    24934                      
+sex     1 24940   7.191  0.007327 ** 
+age_gp  2 25061 130.117 < 2.2e-16 ***
+ct_gp   2 24940   9.606  0.008206 ** 
+wave    2 25116 185.242 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

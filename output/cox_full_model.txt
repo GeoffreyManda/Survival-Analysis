@@ -1,0 +1,31 @@
+Call:
+coxph(formula = Surv(LoS, mort_hospital == 1) ~ sex + age_gp + 
+    ct_gp + wave, data = na.omit(Covid_data))
+
+  n= 9588, number of events= 1605 
+
+                             coef exp(coef) se(coef)      z Pr(>|z|)    
+sexFemale                 0.14002   1.15030  0.05194  2.696  0.00703 ** 
+age_gpMiddle-aged Adults  0.28868   1.33467  0.22258  1.297  0.19464    
+age_gpElderly             1.05542   2.87319  0.21099  5.002 5.67e-07 ***
+ct_gpModerately Positive  0.04434   1.04534  0.05887  0.753  0.45129    
+ct_gpWeakly Positive      0.19240   1.21215  0.06222  3.092  0.00199 ** 
+wave2                     0.43630   1.54697  0.05554  7.855 4.00e-15 ***
+wave3                    -0.51167   0.59949  0.07784 -6.574 4.91e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                         exp(coef) exp(-coef) lower .95 upper .95
+sexFemale                   1.1503     0.8693    1.0390    1.2736
+age_gpMiddle-aged Adults    1.3347     0.7493    0.8628    2.0646
+age_gpElderly               2.8732     0.3480    1.9001    4.3447
+ct_gpModerately Positive    1.0453     0.9566    0.9314    1.1732
+ct_gpWeakly Positive        1.2122     0.8250    1.0730    1.3694
+wave2                       1.5470     0.6464    1.3874    1.7249
+wave3                       0.5995     1.6681    0.5147    0.6983
+
+Concordance= 0.642  (se = 0.008 )
+Likelihood ratio test= 343.2  on 7 df,   p=<2e-16
+Wald test            = 303.4  on 7 df,   p=<2e-16
+Score (logrank) test = 319  on 7 df,   p=<2e-16
+

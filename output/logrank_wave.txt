@@ -1,0 +1,13 @@
+Log-rank test for wave differences 
+
+Call:
+survdiff(formula = formula, data = data)
+
+n=9783, 201 observations deleted due to missingness.
+
+          N Observed Expected (O-E)^2/E (O-E)^2/V
+wave=1 3518      580      634       4.6      7.49
+wave=2 4767      818      579      99.0    158.04
+wave=3 1498      247      432      79.5    113.07
+
+ Chisq= 193  on 2 degrees of freedom, p= <2e-16 

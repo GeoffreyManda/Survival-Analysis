@@ -1,0 +1,9 @@
+Data: Covid_data
+Models:
+lmm_los: log_LoS ~ age + gender + Ct + wave + (1 | hosp_id)
+lmm_los_alt1: log_LoS ~ gender + age + Ct + wave + (1 | hosp_id)
+lmm_los_alt2: log_LoS ~ Ct + age + gender + wave + (1 | hosp_id)
+             npar    AIC    BIC logLik deviance Chisq Df Pr(>Chisq)
+lmm_los         8 7085.9 7143.3  -3535   7069.9                    
+lmm_los_alt1    8 7085.9 7143.3  -3535   7069.9     0  0           
+lmm_los_alt2    8 7085.9 7143.3  -3535   7069.9     0  0           

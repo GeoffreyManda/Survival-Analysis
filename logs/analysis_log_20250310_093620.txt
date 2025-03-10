@@ -1,0 +1,468 @@
+COVID-19 Survival Analysis
+=========================
+Started at: 2025-03-10 09:36:20 
+
+Checking and installing required packages...
+COVID-19 Survival Analysis
+=========================
+Started at: 2025-03-10 09:38:02 
+
+Checking and installing required packages...
+
+============================================
+Running: scripts/01_data_preprocessing.r 
+Data loading and preprocessing 
+============================================
+
+WARNING in scripts/01_data_preprocessing.r :
+cannot open file 'scripts/01_data_preprocessing.r': No such file or directory 
+
+Completed: scripts/01_data_preprocessing.r 
+Time taken: 0.0003190041 secs 
+
+============================================
+Running: scripts/02_descriptive_analysis.r 
+Descriptive statistics and basic visualizations 
+============================================
+
+WARNING in scripts/02_descriptive_analysis.r :
+cannot open file 'scripts/02_descriptive_analysis.r': No such file or directory 
+
+Completed: scripts/02_descriptive_analysis.r 
+Time taken: 0.0002498627 secs 
+
+============================================
+Running: scripts/03_survival_analysis.r 
+Kaplan-Meier survival analysis and Cox models 
+============================================
+
+WARNING in scripts/03_survival_analysis.r :
+cannot open file 'scripts/03_survival_analysis.r': No such file or directory 
+
+Completed: scripts/03_survival_analysis.r 
+Time taken: 0.0002498627 secs 
+
+============================================
+Running: scripts/04_parametric_models.r 
+Parametric survival models 
+============================================
+
+WARNING in scripts/04_parametric_models.r :
+cannot open file 'scripts/04_parametric_models.r': No such file or directory 
+
+Completed: scripts/04_parametric_models.r 
+Time taken: 0.0001909733 secs 
+
+============================================
+Running: scripts/05_mixed_effects_models.r 
+Mixed-effects models for hospital clustering 
+============================================
+
+WARNING in scripts/05_mixed_effects_models.r :
+cannot open file 'scripts/05_mixed_effects_models.r': No such file or directory 
+
+Completed: scripts/05_mixed_effects_models.r 
+Time taken: 0.0001759529 secs 
+
+============================================
+Running: scripts/06_visualization.r 
+Advanced visualizations for publication 
+============================================
+
+WARNING in scripts/06_visualization.r :
+cannot open file 'scripts/06_visualization.r': No such file or directory 
+
+Completed: scripts/06_visualization.r 
+Time taken: 0.000207901 secs 
+
+=========================
+Analysis complete
+Started at: 2025-03-10 09:38:02 
+Ended at: 2025-03-10 09:38:02 
+Total time: 0.05447507 secs 
+All scripts completed successfully.
+=========================
+
+Analysis complete. Log saved to logs/analysis_log_20250310_093802.txt 
+COVID-19 Survival Analysis
+=========================
+Started at: 2025-03-10 09:38:09 
+
+Checking and installing required packages...
+[[1]]
+[[1]]$name
+[1] "scripts/01_data_preprocessing.r"
+
+[[1]]$description
+[1] "Data loading and preprocessing"
+
+
+[[2]]
+[[2]]$name
+[1] "scripts/02_descriptive_analysis.r"
+
+[[2]]$description
+[1] "Descriptive statistics and basic visualizations"
+
+
+[[3]]
+[[3]]$name
+[1] "scripts/03_survival_analysis.r"
+
+[[3]]$description
+[1] "Kaplan-Meier survival analysis and Cox models"
+
+
+[[4]]
+[[4]]$name
+[1] "scripts/04_parametric_models.r"
+
+[[4]]$description
+[1] "Parametric survival models"
+
+
+[[5]]
+[[5]]$name
+[1] "scripts/05_mixed_effects_models.r"
+
+[[5]]$description
+[1] "Mixed-effects models for hospital clustering"
+
+
+[[6]]
+[[6]]$name
+[1] "scripts/06_visualization.r"
+
+[[6]]$description
+[1] "Advanced visualizations for publication"
+
+
+
+============================================
+Running: scripts/01_data_preprocessing.r 
+Data loading and preprocessing 
+============================================
+
+WARNING in scripts/01_data_preprocessing.r :
+cannot open file 'scripts/01_data_preprocessing.r': No such file or directory 
+
+Completed: scripts/01_data_preprocessing.r 
+Time taken: 0.0004041195 secs 
+
+============================================
+Running: scripts/02_descriptive_analysis.r 
+Descriptive statistics and basic visualizations 
+============================================
+
+WARNING in scripts/02_descriptive_analysis.r :
+cannot open file 'scripts/02_descriptive_analysis.r': No such file or directory 
+
+Completed: scripts/02_descriptive_analysis.r 
+Time taken: 0.0001749992 secs 
+
+============================================
+Running: scripts/03_survival_analysis.r 
+Kaplan-Meier survival analysis and Cox models 
+============================================
+
+WARNING in scripts/03_survival_analysis.r :
+cannot open file 'scripts/03_survival_analysis.r': No such file or directory 
+
+Completed: scripts/03_survival_analysis.r 
+Time taken: 0.0001690388 secs 
+
+============================================
+Running: scripts/04_parametric_models.r 
+Parametric survival models 
+============================================
+
+WARNING in scripts/04_parametric_models.r :
+cannot open file 'scripts/04_parametric_models.r': No such file or directory 
+
+Completed: scripts/04_parametric_models.r 
+Time taken: 0.0001549721 secs 
+
+============================================
+Running: scripts/05_mixed_effects_models.r 
+Mixed-effects models for hospital clustering 
+============================================
+
+WARNING in scripts/05_mixed_effects_models.r :
+cannot open file 'scripts/05_mixed_effects_models.r': No such file or directory 
+
+Completed: scripts/05_mixed_effects_models.r 
+Time taken: 0.0001568794 secs 
+
+============================================
+Running: scripts/06_visualization.r 
+Advanced visualizations for publication 
+============================================
+
+WARNING in scripts/06_visualization.r :
+cannot open file 'scripts/06_visualization.r': No such file or directory 
+
+Completed: scripts/06_visualization.r 
+Time taken: 0.0001540184 secs 
+COVID-19 Survival Analysis
+=========================
+Started at: 2025-03-10 09:41:09 
+
+Checking and installing required packages...
+[[1]]
+[[1]]$name
+[1] "scripts/01-data-preprocessing.r"
+
+[[1]]$description
+[1] "Data loading and preprocessing"
+
+
+[[2]]
+[[2]]$name
+[1] "scripts/02-descriptive-analysis.r"
+
+[[2]]$description
+[1] "Descriptive statistics and basic visualizations"
+
+
+[[3]]
+[[3]]$name
+[1] "scripts/03-survival-analysis.r"
+
+[[3]]$description
+[1] "Kaplan-Meier survival analysis and Cox models"
+
+
+[[4]]
+[[4]]$name
+[1] "scripts/04-parametric-models.r"
+
+[[4]]$description
+[1] "Parametric survival models"
+
+
+[[5]]
+[[5]]$name
+[1] "scripts/05-mixed-effects-models.r"
+
+[[5]]$description
+[1] "Mixed-effects models for hospital clustering"
+
+
+[[6]]
+[[6]]$name
+[1] "scripts/06-visualization.r"
+
+[[6]]$description
+[1] "Advanced visualizations for publication"
+
+
+
+============================================
+Running: scripts/01-data-preprocessing.r 
+Data loading and preprocessing 
+============================================
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  22.00   53.00   65.00   65.06   81.00  100.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  1.466   5.360   7.291   8.052   9.872  41.738     201 
+
+============================================
+Running: scripts/02-descriptive-analysis.r 
+Descriptive statistics and basic visualizations 
+============================================
+
+WARNING in scripts/02-descriptive-analysis.r :
+The `size` argument of `element_rect()` is deprecated as of ggplot2 3.4.0. Please use the `linewidth` argument instead. 
+
+Completed: scripts/02-descriptive-analysis.r 
+Time taken: 0.704047 secs 
+
+============================================
+Running: scripts/03-survival-analysis.r 
+Kaplan-Meier survival analysis and Cox models 
+============================================
+
+WARNING in scripts/03-survival-analysis.r :
+All aesthetics have length 1, but the data has 2 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row. 
+
+Completed: scripts/03-survival-analysis.r 
+Time taken: 1.999022 secs 
+
+============================================
+Running: scripts/04-parametric-models.r 
+Parametric survival models 
+============================================
+
+============================================
+Running: scripts/05-mixed-effects-models.r 
+Mixed-effects models for hospital clustering 
+============================================
+[1] TRUE
+
+WARNING in scripts/05-mixed-effects-models.r :
+Can't compute random effect variances. Some variance components equal
+  zero. Your model may suffer from singularity (see `?lme4::isSingular` and
+  `?performance::check_singularity`).
+  Solution: Respecify random structure! You may also decrease the
+  `tolerance` level to enforce the calculation of random effect variances. 
+
+Completed: scripts/05-mixed-effects-models.r 
+Time taken: 2.731694 secs 
+
+============================================
+Running: scripts/06-visualization.r 
+Advanced visualizations for publication 
+============================================
+
+WARNING in scripts/06-visualization.r :
+Removed 195 rows containing non-finite outside the scale range (`stat_bin()`). 
+
+Completed: scripts/06-visualization.r 
+Time taken: 0.9685709 secs 
+
+=========================
+Analysis complete
+Started at: 2025-03-10 09:41:09 
+Ended at: 2025-03-10 09:42:02 
+Total time: 52.32434 secs 
+All scripts completed successfully.
+=========================
+
+Analysis complete. Log saved to logs/analysis_log_20250310_094109.txt 
+COVID-19 Survival Analysis
+=========================
+Started at: 2025-03-10 09:44:49 
+
+Checking and installing required packages...
+[[1]]
+[[1]]$name
+[1] "scripts/01-data-preprocessing.r"
+
+[[1]]$description
+[1] "Data loading and preprocessing"
+
+
+[[2]]
+[[2]]$name
+[1] "scripts/02-descriptive-analysis.r"
+
+[[2]]$description
+[1] "Descriptive statistics and basic visualizations"
+
+
+[[3]]
+[[3]]$name
+[1] "scripts/03-survival-analysis.r"
+
+[[3]]$description
+[1] "Kaplan-Meier survival analysis and Cox models"
+
+
+[[4]]
+[[4]]$name
+[1] "scripts/04-parametric-models.r"
+
+[[4]]$description
+[1] "Parametric survival models"
+
+
+[[5]]
+[[5]]$name
+[1] "scripts/05-mixed-effects-models.r"
+
+[[5]]$description
+[1] "Mixed-effects models for hospital clustering"
+
+
+[[6]]
+[[6]]$name
+[1] "scripts/06-visualization.r"
+
+[[6]]$description
+[1] "Advanced visualizations for publication"
+
+
+
+============================================
+Running: scripts/01-data-preprocessing.r 
+Data loading and preprocessing 
+============================================
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  22.00   53.00   65.00   65.06   81.00  100.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  1.466   5.360   7.291   8.052   9.872  41.738     201 
+
+============================================
+Running: scripts/02-descriptive-analysis.r 
+Descriptive statistics and basic visualizations 
+============================================
+
+WARNING in scripts/02-descriptive-analysis.r :
+Removed 201 rows containing non-finite outside the scale range
+(`stat_ydensity()`). 
+
+Completed: scripts/02-descriptive-analysis.r 
+Time taken: 0.6903379 secs 
+
+============================================
+Running: scripts/03-survival-analysis.r 
+Kaplan-Meier survival analysis and Cox models 
+============================================
+
+WARNING in scripts/03-survival-analysis.r :
+All aesthetics have length 1, but the data has 2 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row. 
+
+Completed: scripts/03-survival-analysis.r 
+Time taken: 1.185244 secs 
+
+============================================
+Running: scripts/04-parametric-models.r 
+Parametric survival models 
+============================================
+
+============================================
+Running: scripts/05-mixed-effects-models.r 
+Mixed-effects models for hospital clustering 
+============================================
+[1] TRUE
+
+WARNING in scripts/05-mixed-effects-models.r :
+Can't compute random effect variances. Some variance components equal
+  zero. Your model may suffer from singularity (see `?lme4::isSingular` and
+  `?performance::check_singularity`).
+  Solution: Respecify random structure! You may also decrease the
+  `tolerance` level to enforce the calculation of random effect variances. 
+
+Completed: scripts/05-mixed-effects-models.r 
+Time taken: 1.89386 secs 
+
+============================================
+Running: scripts/06-visualization.r 
+Advanced visualizations for publication 
+============================================
+
+WARNING in scripts/06-visualization.r :
+Removed 195 rows containing non-finite outside the scale range (`stat_bin()`). 
+
+Completed: scripts/06-visualization.r 
+Time taken: 0.365479 secs 
+
+=========================
+Analysis complete
+Started at: 2025-03-10 09:44:49 
+Ended at: 2025-03-10 09:45:36 
+Total time: 47.36415 secs 
+All scripts completed successfully.
+=========================
+
+Analysis complete. Log saved to logs/analysis_log_20250310_094449.txt 
+ℹ The package "cardx" (>= 0.2.2) is required.
+✖ Would you like to install it?
+
+1: Yes
+2: No
+

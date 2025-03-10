@@ -1,0 +1,79 @@
+COVID-19 Survival Analysis
+=========================
+Started at: 2025-03-10 07:53:08 
+
+Checking and installing required packages...
+
+============================================
+Running: 01_data_preprocessing.R 
+Data loading and preprocessing 
+============================================
+
+WARNING in 01_data_preprocessing.R :
+cannot open file '01_data_preprocessing.R': No such file or directory 
+
+Completed: 01_data_preprocessing.R 
+Time taken: 0.0002100468 secs 
+
+============================================
+Running: 02_descriptive_analysis.R 
+Descriptive statistics and basic visualizations 
+============================================
+
+WARNING in 02_descriptive_analysis.R :
+cannot open file '02_descriptive_analysis.R': No such file or directory 
+
+Completed: 02_descriptive_analysis.R 
+Time taken: 0.0001301765 secs 
+
+============================================
+Running: 03_survival_analysis.R 
+Kaplan-Meier survival analysis and Cox models 
+============================================
+
+WARNING in 03_survival_analysis.R :
+cannot open file '03_survival_analysis.R': No such file or directory 
+
+Completed: 03_survival_analysis.R 
+Time taken: 0.0001192093 secs 
+
+============================================
+Running: 04_parametric_models.R 
+Parametric survival models 
+============================================
+
+WARNING in 04_parametric_models.R :
+cannot open file '04_parametric_models.R': No such file or directory 
+
+Completed: 04_parametric_models.R 
+Time taken: 0.0001161098 secs 
+
+============================================
+Running: 05_mixed_effects_models.R 
+Mixed-effects models for hospital clustering 
+============================================
+
+WARNING in 05_mixed_effects_models.R :
+cannot open file '05_mixed_effects_models.R': No such file or directory 
+
+Completed: 05_mixed_effects_models.R 
+Time taken: 0.0001378059 secs 
+
+============================================
+Running: 06_visualization.R 
+Advanced visualizations for publication 
+============================================
+
+WARNING in 06_visualization.R :
+cannot open file '06_visualization.R': No such file or directory 
+
+Completed: 06_visualization.R 
+Time taken: 0.000125885 secs 
+
+=========================
+Analysis complete
+Started at: 2025-03-10 07:53:08 
+Ended at: 2025-03-10 07:53:08 
+Total time: 0.255722 secs 
+All scripts completed successfully.
+=========================
