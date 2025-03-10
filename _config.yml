@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: COVID-19 Survival Analysis
+description: Analysis of factors affecting COVID-19 patient outcomes
+show_downloads: true
+google_analytics: [Your tracking ID]  # Optional
